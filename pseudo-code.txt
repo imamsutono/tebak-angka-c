@@ -1,0 +1,17 @@
+Start
+  Set random number
+  Set user chance to 10
+  While user chance is greater than 0
+    Input number
+    IF user number not same with random number
+      IF user chance is greater than 1
+        IF user number is greater than random number
+          Print message number is greater
+        ELSE
+          Print message number is lower
+      ELSE
+        Print lost message
+        Print correct number
+    ELSE
+      Print win message
+End
